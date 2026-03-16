@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Busca de Vídeos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="logo">
+        <img src="logo.png" alt="Logo" onerror="this.style.display='none'"/>
+      </div>
+
+      <div class="row">
+        <button id="btnFolder" class="btn">Escolher pasta</button>
+        <div id="folder" class="muted">Nenhuma pasta selecionada</div>
+      </div>
+
+      <div class="row">
+        <button id="btnIndex" class="btn secondary">Indexar</button>
+        <div class="muted">Primeira vez demora. Depois a busca fica rápida.</div>
+      </div>
+
+      <div class="row">
+        <input id="q" class="input" placeholder="Digite uma palavra ou frase do roteiro..." />
+        <button id="btnSearch" class="btn" disabled>Buscar</button>
+      </div>
+
+      <div id="loading" class="loading hidden">
+        <div id="loadingText" style="margin-bottom: 8px;">Processando…</div>
+        <div class="progress-bar-container" style="width: 100%; background: #333; border-radius: 4px; overflow: hidden; margin-bottom: 15px;">
+            <div id="progressBar" class="progress-bar"></div>
+        </div>
+        <button id="btnCancel" class="btn" style="background-color: #ef4444; color: white; border: none;">Cancelar Indexação</button>
+      </div>
+
+      <div id="results" class="results"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
