@@ -1,8 +1,4 @@
-Aqui está uma versão bem caprichada, com uma formatação moderna, "badges" (aquelas etiquetas coloridas no topo) e um visual bem profissional.
 
-Já deixei a seção do Autor pré-preenchida com os detalhes da sua trajetória para valorizar seu portfólio. É só copiar o bloco de código abaixo e colar no seu arquivo README.md lá no GitHub:
-
-Markdown
 <div align="center">
   <h1>🎬 Busca de Vídeos com IA</h1>
   <p><em>Encontre o momento exato em que uma frase foi dita no meio de dezenas de arquivos brutos.</em></p>
